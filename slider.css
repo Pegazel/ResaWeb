@@ -1,0 +1,131 @@
+.js-slider {
+  width: 800px; 
+  height: 450px;
+  position: relative;
+  left: 45vw;
+  top: 29vh;
+  transform: translate(-50%, -50%);
+  overflow: hidden;  
+
+}
+
+.js-photos {
+  display: flex;
+  left: -800px; 
+  position: relative;
+  transition: left 0.6s ease-out; 
+}
+
+.js-photo {
+  width: 800px; 
+  height: 450px;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.images_slider {
+  width: 800px;
+  height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.js-navigation {
+  position: absolute;
+  width: 95%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.js-btn-decale-droite,
+.js-btn-decale-gauche {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.341);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+.js-btn-decale-gauche {
+  left: initial;
+  right: 0;
+}
+
+.arrow {
+  width: 15px;
+  height: 15px;
+  border-top: 4px solid rgb(255, 255, 255);
+  border-left: 4px solid rgb(255, 255, 255);
+  transform: rotate(-45deg);
+  position: relative;
+  left: 2px;
+}
+
+.arrow:hover{
+  border-top: 4px solid #92172b;
+  border-left: 4px solid #92172b;
+  transition: all 0.3s ease-out;
+}
+
+.js-btn-decale-gauche .arrow {
+  left: -2px;
+  transform: rotate(135deg);
+}
+
+.clone img{
+  width: 800px; 
+  height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+  .js-slider {
+    width: 600px; 
+    height: 300px;
+  }
+
+  .js-photos {
+    left: -600px; 
+  }
+
+  .js-photo {
+    width: 600px; 
+    height: 300px;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  .images_slider {
+    width: 600px;
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  .clone img{
+    width: 600px; 
+    height: 300px;
+  
+  }  
+
+
+  section{
+    margin-top: 10%;
+  }
+
+}

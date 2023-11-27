@@ -1,0 +1,60 @@
+section{
+    display: flex;
+    justify-content: space-around;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+
+
+.vehicule{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #bdbdbd35;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #4a4a4a5d ;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+    transition: transform 0.3s ease;
+}
+
+.vehicule:hover{
+    transform: scale(1.1);
+}
+
+.img{
+    width: 100%;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.descri{
+    padding-left: 10px ;
+}
+
+.intitule{
+    padding: 10px;
+    font-size: 1.8rem;
+}
+
+.prix{
+    align-self: flex-end;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-right: 20px;
+}
+
+
+/* style pour la page de recherche quand il n'y a aucun resultat */
+.aucun{
+    margin-bottom: 65vh;
+}
+
+
+@media (max-width: 955px) {
+    .vehicule {
+      width: 300px;
+    }
+  }
+

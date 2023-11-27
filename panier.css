@@ -1,0 +1,115 @@
+.panier_vide{
+    margin-bottom: 30vh;
+    margin-top: 10vh;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.retour{
+    background-color: #92172b;
+    margin: auto;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    padding: 20px;
+    text-decoration: none;
+    color: #c4c4c4;
+    display: flex;
+    width: 30%;
+    margin-bottom: 20vh;
+    justify-content: center;
+}
+
+.retour:hover{
+    background-color: #730416;
+    transition: all 0.3s ease-out;
+}
+
+
+h1{
+    margin: 3%;
+    text-align: center;
+}
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    background-color: #bdbdbd35;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #4a4a4a5d ;
+    width: 60%;
+    padding: 40px;
+    margin: auto;
+    margin-bottom: 15vh;
+}
+
+.formulaire form{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+p{
+    margin: auto;
+}
+
+select{
+    width: 40%;
+    border-radius: 20px;
+    background-color: #c6c6c6;
+    font-size: 1rem;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.envoyer{
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.envoyer:hover{
+    background-color: #7a7a7a;
+}
+
+
+.formulaire label{
+    display: flex;
+    gap: 10px;
+    margin: auto;
+}
+
+.formulaire label > span {
+    flex-shrink: 0;
+}
+
+.formulaire input, textarea{
+    flex-grow: 1;
+}
+
+.prix{
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+
+
+
+.erreur{
+    display: none;
+    color: #ff4665;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+
+@media (max-width: 955px) {
+    .formulaire{
+        width: 100%;
+    }
+
+}

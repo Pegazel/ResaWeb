@@ -1,0 +1,23 @@
+.pilote_p{
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.titre_p{
+    margin-bottom: 2%;
+}
+
+.img_p{
+    width: 30vw;
+    border-radius: 50%;
+}
+
+.div_p{
+    margin: 2%;
+}
+
+.lieu{
+    margin-top: 2%;
+}

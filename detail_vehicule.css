@@ -1,0 +1,124 @@
+main{
+    display:flex;
+    flex-direction: column;
+}
+
+.fleche{
+    width: 40%;
+}
+
+
+.nom{
+    font-size: 2rem;
+    margin-bottom: 5%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.retour {
+    width: 150px;
+    position: absolute;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+    gap: 5%;
+}
+
+.un{
+    background-color: #eeeeee;
+    color: #080808;
+    width: 28%;
+    padding: 10px;
+}
+
+@media (max-width: 950px) {
+    .un {
+      width: 200px;
+    }
+  }
+  
+
+.avis{
+    margin-bottom: 10%;
+
+}
+
+.space{
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+.deux{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.prix{
+    margin-left: auto;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.reserver{
+    text-decoration: none;
+    color: #eeeeee;
+    background-color: #c40000;
+    border-radius: 20px;
+    padding:2%;
+    margin-left: auto;
+    font: 1.5em "Righteous";
+    display: flex;
+    cursor: pointer;
+}
+
+.avis_perso{
+    margin-right: auto;
+}
+
+select{
+    width: 40%;
+    border-radius: 20px;
+    background-color: #c6c6c6;
+    font-size: 1rem;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+
+.bouton_avis{
+    padding: 5px;
+    border-radius: 10px;
+    border: #080808 1px solid;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.bouton_avis:hover{
+    background-color: #cfcfcf;
+    transition: all 0.3s ease;
+}
+
+label.commentaire{
+    margin-top: 15px;
+}
+
+label.pilote{
+    font-size: 1.2em;
+}
+
+.plus_pilote{
+    color: #cccccc;
+
+}
+
+#afficherAvis{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+}
